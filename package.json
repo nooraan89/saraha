@@ -1,0 +1,26 @@
+{
+  "name": "saraha",
+  "version": "1.0.0",
+  "main": "ındex.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --env-file=./src/config/.env ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^8.9.5",
+    "nanoid": "^5.1.5",
+    "nodemailer": "^6.10.0"
+  }
+}
